@@ -59,8 +59,7 @@ header ul li:not(:first-child){
     width: 20px;
 }
 .last-side li:last-child{
-    display: none;
-    
+    display: none;   
 }
 .hero-section{
     padding-top: 150px;
@@ -351,8 +350,10 @@ footer .footer-grid{
         width: 30px;
     }
     .last-side li:nth-child(odd){
-        display: none;
-        
+        display: none;  
+    }
+    .last-side li:nth-child(4){
+        display: contents;
     }
     .hero-section{
         width: 100%;
@@ -381,9 +382,7 @@ footer .footer-grid{
         height: 105px;
         border-radius: 26px;
     }
-    .hero :nth-child(1) img{
-        
-    }
+
     .hero :nth-child(2){
         font-family: Helvetica;
         color: aliceblue;
